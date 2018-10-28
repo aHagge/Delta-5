@@ -1,8 +1,9 @@
 fileFormatVersion: 2
-guid: b1086b9a0a4504245867c858c550cdcd
+guid: ebdcccde2e648d04db35163c3ba2184c
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Inven_0
+    21300000: Grappling hook_0
+    21300002: Grappling hook_1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -107,21 +108,41 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Inven_0
+      name: Grappling hook_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 37
-        width: 426
-        height: 426
+        x: 39
+        y: 500
+        width: 712
+        height: 545
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eeee9d2e648b764e88947cb9ae5b72b
+      spriteID: bc1dec0a3b3d07a448361f1b4f4ee86d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grappling hook_1
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 21
+        width: 1087
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bd84a05de073c41a32c42948d3b563
       vertices: []
       indices: 
       edges: []
@@ -129,7 +150,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 67d52c1b0cc181f47bb202e09edca238
+    spriteID: 55ff167359bf10a4ca657ab5585dfadb
     vertices: []
     indices: 
     edges: []
