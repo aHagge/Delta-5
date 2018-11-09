@@ -5,13 +5,16 @@ using TMPro;
 public class Inventory : MonoBehaviour {
     public Item[] Alltheitems;
 
+    [SerializeField]
     public static string itemselected;
+
     // The actual item in the inventory, later being set to the item of choice.
     public GameObject itemdisplayerprefab;
 
     public GameObject[] Slots;
 
     public GameObject Backpack;
+    public static bool backpackopen;
 
     public GameObject Slotselector;
 
@@ -25,11 +28,14 @@ public class Inventory : MonoBehaviour {
     }
 	
 	void Update () {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            AddItem(0, 1);
+        }
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             Slotselector.transform.position = Slots[0].transform.position;
-            slotselected = 0;
-            AddItem(0, 1);
+            slotselected = 0;            
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
@@ -58,10 +64,12 @@ public class Inventory : MonoBehaviour {
             if (Backpack.activeInHierarchy)
             {
                 Backpack.SetActive(false);
+                backpackopen = false;
             }
             else
             {
                 Backpack.SetActive(true);
+                backpackopen = true;
             }
         }
     }

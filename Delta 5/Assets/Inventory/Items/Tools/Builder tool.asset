@@ -14,5 +14,5 @@ MonoBehaviour:
   Name: Builder tool
   sprite: {fileID: 21300000, guid: 2fdf0157fb7585a4f90f86157782fe14, type: 3}
   description: Tool to build stuff.
-  HowManyCanStack: 2
+  HowManyCanStack: 1
   current: 0

@@ -93,12 +93,12 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 14.1
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 14.1
-  m_fontSizeMax: 72
+  m_fontSizeMin: 1
+  m_fontSizeMax: 200
   m_fontStyle: 0
   m_textAlignment: 514
   m_isAlignmentEnumConverted: 1
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -134,9 +134,9 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 114555008819336540}
-    characterCount: 3
+    characterCount: 1
     spriteCount: 0
-    spaceCount: 1
+    spaceCount: 0
     wordCount: 1
     linkCount: 0
     lineCount: 1
@@ -233,7 +233,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.1576369, y: 0.11234413}
   m_AnchorMax: {x: 0.83961797, y: 0.87600005}
-  m_AnchoredPosition: {x: 0.19229889, y: 0.04599762}
+  m_AnchoredPosition: {x: 0.19229126, y: 0.04598999}
   m_SizeDelta: {x: -0.85499954, y: 0.10199928}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224565440058209596
@@ -244,13 +244,13 @@ RectTransform:
   m_GameObject: {fileID: 1064354867587654}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.0270615, y: 2.0270615, z: 2.0270615}
   m_Children: []
   m_Father: {fileID: 224017517049470878}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 5.6000004, y: -6.3999996}
+  m_AnchoredPosition: {x: 5.5999985, y: -6.399994}
   m_SizeDelta: {x: -0.004507065, y: 0.72000027}
   m_Pivot: {x: 0.5, y: 0.5}

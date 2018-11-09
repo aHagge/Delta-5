@@ -10,7 +10,8 @@ public class Gamemanager : MonoBehaviour
 
     public GameObject ESC;
     public Vector3 temp;
-    public GameObject Player;
+
+    public static GameObject Player;
     public static Vector2 playerpos;
 
 
@@ -41,10 +42,13 @@ public class Gamemanager : MonoBehaviour
         Load();
     }
 
+    private void Awake()
+    {
+        Player = GameObject.Find("Player");
+    }
     // Update is called once per frame
     void Update()
     {
-
         player_pos_x = Player.transform.position.x;
         player_pos_y = Player.transform.position.y;
 

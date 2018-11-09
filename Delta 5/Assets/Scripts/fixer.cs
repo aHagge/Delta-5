@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class fixer : MonoBehaviour {
     public GameObject container;
-
+    public float xy;
 	// Use this for initialization
 	void Start () {
 		
@@ -14,8 +14,7 @@ public class fixer : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
         float width = container.GetComponent<RectTransform>().rect.width;
-        print(width);
-        Vector2 newSize = new Vector2(width / 2, width / 2);
+        Vector2 newSize = new Vector2(width / xy, width / xy);
         container.GetComponent<GridLayoutGroup>().cellSize = newSize;
 	}
 }
